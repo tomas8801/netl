@@ -1,0 +1,215 @@
+body {
+    background: #310C21;
+    font-family: 'Open Sans', sans-serif;
+    background-attachment: fixed;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    background: rgb(255, 255, 255);
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    
+}
+
+header .logo {
+    width: 20%;
+    order: 1;
+    
+}
+
+header .logo img {
+    width: 100%;
+}
+
+header .menu {
+    padding: 10px;
+    order: 3;
+    margin: 0 52px;
+}
+
+header .menu a {
+    color: rgba(49, 12, 33, 1);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+header .menu a:hover {
+    text-decoration: underline;
+}
+
+header .bienvenida {
+    width: 25%;
+    order: 2;
+    text-align: left;
+    margin-left: 5px;
+    border-right: 1px solid #000;
+}
+
+.contenedor .main {
+    width: 100%;
+    
+}
+
+.contenedor .main .foto {
+    width: 100%;
+}
+
+.contenedor .main .foto img {
+    width: 100%;
+}
+
+.contenedor .main .titulo {
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contenedor .main p {
+    margin:20px;
+    font-size: 16px;
+    line-height: 27px;
+}
+.contenedor .main p .bold {
+    font-weight: bold;
+}
+
+.contenedor .main .creaciones .contenedor-creaciones {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.contenedor .main .creaciones .contenedor-creaciones .creacion {
+    width: 32%;
+    margin: 0 6px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+
+
+.contenedor .main .creaciones .contenedor-creaciones .creacion .thumb {
+    width: 100%;
+    transition-duration: 5s;
+
+}
+
+.contenedor .main .creaciones .contenedor-creaciones .creacion .thumb img {
+    width: 100%;
+    opacity: 0.6;
+}
+
+.contenedor .main .creaciones .contenedor-creaciones .creacion .thumb img:hover {
+    opacity: 1.0;
+    box-shadow: 0px 0px 10px 0px #310C21;
+    transition-duration: 1.2s;
+
+}
+
+.contenedor .main .creaciones .contenedor-creaciones .creacion .descripcion h2 {
+    text-align: center;
+    font-weight: normal;
+}
+
+
+footer {
+    width:100%;
+}
+
+footer .contacto {
+    padding: 60px 0;
+    
+}
+
+footer .contacto .titulo {
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+footer .contacto .formulario {
+    width: 90%;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"],
+footer .contacto .formulario textarea {
+    border:2px solid #cecece;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #a4a4a4;
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"] {
+    width: 44%;
+    margin-bottom: 15px;
+}
+
+footer .contacto .formulario textarea {
+    width: 100%;
+    height: 100px;
+    min-width: 95%;
+    max-width: 95%;
+    min-height: 100px;
+    max-height: 300px;
+    margin-bottom: 15px;
+}
+
+footer .contacto .formulario .boton {
+    padding: 10px 20px;
+    margin: auto;
+    background: #310C21;
+    color: #fff;
+    border: none;
+    border-radius:  3px;
+
+}
+
+footer .redes-sociales {
+    background: rgba(119, 119, 119, 3);
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes-sociales a {
+    padding: 15px 0;
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    display: block;
+    font-size: 30px;
+    border-radius: 3px;
+    margin:0 20px;
+}
+
+footer .redes-sociales .twitter:hover {background: #1da1f2;}
+footer .redes-sociales .facebook:hover {background: #3b5998;}
+footer .redes-sociales .instagram:hover {background: #fcaf45;}
